@@ -98,6 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+# https://github.com/theme-next/hexo-theme-next.git
 theme: next
 
 # Deployment
@@ -106,3 +107,12 @@ deploy:
   type: git
   repo: git@github.com:yoyo929/yoyo929.github.io.git
   branch: gh-pages
+
+## 第一次安装步骤
+## git clone https://github.com/yoyo929/yoyo929.github.io.git
+## cd yoyo929.github.io
+## 安装博客所需的依赖
+## npm install
+## 安装next主题：
+## cd themes
+## git clone https://github.com/theme-next/hexo-theme-next.git next
